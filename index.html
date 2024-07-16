@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="source/styles/mycss.css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_package_v0.16/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_package_v0.16/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="source/files/favicon_package_v0.16/site.webmanifest">
+  <link rel="mask-icon" href="source/files/favicon_package_v0.16/safari-pinned-tab.svg" color="#707070">
+  <meta name="msapplication-TileColor" content="#7c7c7c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Ekzoo</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9OO-_5XDQEtlrSfvP3HdUgVU-Pc2LLCYRg&usqp=CAU"
+            alt="logo" draggable="false" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <!-- active это заданное оформление в CSS от bootstrap, когда кликнешь на pricing, то это слово теперь будет -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.tez-tour.com/" target="_blank">Buy Tikets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/the_pepsis" target="_blank">Telegam</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/the.pepsis?igsh=MTRuczMwYTZkc3pycQ=="
+                target="_blank">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container-fluid">
+      <!-- в  главном контейнере задаём отступы margin: 4; -->
+      <div class="row">
+        <!-- писать именно класс row обязательно! -->
+        <div class="col-lg-1"></div>
+        <!-- 1 доля пустая -->
+
+        <div class="col-lg-8 col-md-12 mt-4 gg">
+          <!-- 8 долей для карт товара, в среднем разрешении занимать все 12 -->
+          <div class="row">
+            <p class="introtext">
+              Лучший отдых — это смена привычной обстановки, поэтому многие
+              хотят провести его за границей. Сейчас не все страны открыты для
+              туристов из России. И всё же есть возможность отправиться за
+              пределы родины и отлично провести время. Рассказываем, куда
+              поехать отдыхать в 2024 году.
+            </p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <!-- позволяет автоматически переключать слайды -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <!-- active означает, что этот слайд будет первым, когда сайт заустится -->
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/Egypt.jpg" class="w-100" alt="Egypt" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slideinfo">
+                        <p>
+                          Египет – земля мистики и древней истории, колыбель
+                          цивилизации фараонов, оставившей потомкам множество
+                          загадок. Историческое прошлое привлекает не только
+                          археологов со всего мира, но и огромное количество
+                          путешественников. Для детального знакомства со
+                          многими из них едут на экскурсию по Нилу — реке,
+                          которая стала источником жизни в египетской пустыне.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/Turkey.png" class="w-100" alt="Turkey" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slideinfo">
+                        <p>
+                          Турция ждет путешественников круглый год и является
+                          одним из самых востребованных направлений отдыха у
+                          россиян. Шумный и не перестающий удивлять Стамбул,
+                          прекрасная Анталия, роскошный Белек и другие
+                          туристические места Турции готовы подарить гостям
+                          незабываемый отдых не только летом, но и зимой.
+                          Здесь удивительным образом соединились восточные
+                          традиции и западный уровень сервиса, а каждый турист
+                          чувствует себя как дома.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/Dubai.jpg" class="w-100" alt="Dubai" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slideinfo">
+                        <p>
+                          Территория Объединенных Арабских Эмиратов находится
+                          на северо-восточном окончании Аравийского
+                          полуострова, на побережье Персидского залива. ОАЭ
+                          граничат с Саудовской Аравией на юге и западе, с
+                          Оманом - на востоке. На севере, отделенный
+                          Персидским заливом, лежит Иран, а к западу, всего в
+                          пятидесяти километрах - Катар. ОАЭ состоят из семи
+                          эмиратов: Абу-Даби, Аджман, Дубай, Фуджейра,
+                          Рас-эль-Хайма, Шарджа и Умм-эль-Кайвайн.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block w-100">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <img src="source/images/Italy.jpg" class="w-100" alt="Italy" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 slideinfo">
+                        <p>
+                          Италию не зря называют страной-музеем, ведь именно
+                          здесь сосредоточены три четверти культурного
+                          достояния Европы. Но музеи замкнуты и единообразны,
+                          а Италия состоит из множества областей и городов с
+                          живой культурой, яркой историей и уникальными
+                          традициями. Каждый из них по праву считает себя
+                          особенным и гордится этим. Эта страна с богатейшей
+                          историей не оставит равнодушным ни одного туриста.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="col-lg-12 col-md-12 text-center mt-5">
+              <img class="loopa" style="width: 25px" src="source/images/icons8-лупа-512.png" alt="loopa" />
+            </div>
+
+            <div class="col-lg-12 col-md-12 text-center">
+              <a href="https://www.aviasales.ru/psgr/article/direct-from-russia?ysclid=lycqnqf81a287619406"
+                class="btn btn-outline-primary btn-lg" target="_blank">См. Рейсы</a>
+            </div>
+
+            <div class="row px-2">
+              <div class="col-lg-12 sidebar">
+                <!-- 12 долей от родительского, от 3 основных -->
+                <div class="top mt-4">
+                  <h1>Топ 5 стран для отдыха в 2024 году</h1>
+                </div>
+                <ul>
+                  <li>
+                    <b>Египет</b> — это отдых на многочисленных пляжах на
+                    северном и восточном побережье, омываемых Средиземным и
+                    Красным морем соответственно. Египетские курорты привлекают
+                    огромное количество туристов, благо, что есть из чего
+                    выбирать. Обычно выбор делается в пользу отелей,
+                    располагающихся на Синайском полуострове и побережье
+                    Красного моря. Самые известные места для отдыха — Хургада и
+                    Шарм-эль-Шейх.<a href="egypt.html">Узнать больше.</a>
+                  </li>
+                  <li>
+                    <b>Турция</b> выросла из некогда грозной Османской империи,
+                    развернувшей свои владения в богатейшем
+                    культурно-историческом регионе на стыке европейской и
+                    азиатской цивилизаций. Страну омывают сразу три моря –
+                    Средиземное, Черное и Эгейское, что предопределило
+                    современные пути развития государства. Сегодня Турция – это
+                    демократичная пляжная мекка для российских пакетных туристов
+                    и главный поставщик положительных эмоций для европейских
+                    курортников. По-восточному радушная, доступная во всех
+                    отношениях (безвизовый режим для россиян все еще в силе),
+                    готовая круглосуточно развлекать и поражать размахом системы
+                    «все включено», она продолжает оставаться вне конкуренции,
+                    когда речь заходит о недорогом отдыхе на море и впечатляющих
+                    экскурсиях по местам археологических раскопок.<a href="turkey.html">Узнать больше.</a>
+                  </li>
+                  <li>
+                    <b>Объединенные Арабские Эмираты</b>, самая эффектная
+                    витрина Ближнего Востока и одно из лучших мест отдыха на
+                    планете, расположились на северо-востоке Аравийского
+                    полуострова и омываются лазурными водами Персидского и
+                    Оманского заливов. Эль-Имарат эль-Арабия эль-Муттахида, как
+                    называют свою страну ее жители, является федеративным
+                    государством и включает в себя 7 эмиратов: Абу-Даби, Дубай,
+                    Шарджу, Рас-эль-Хайм, Фуджейру, Умм-эль-Кайвайн и Аджман. У
+                    каждого из них – своя изюминка, свои нравы и природные
+                    особенности.<a href="oae.html">Узнать больше.</a>
+                  </li>
+                  <li>
+                    <b>Италия</b> пользуется неутихающей популярностью у
+                    туристов. Здесь вы найдете любимые во всем мире блюда
+                    итальянской кухни, прекрасные пляжи и бессчетное число
+                    достопримечательностей и развлечений. Италия занимает
+                    территорию знаменитого «сапога» — Апеннинского полуострова.
+                    В ее состав входят крупные острова Сицилия и Сардиния, а
+                    также несколько мелких островов. Лигурийское побережье —
+                    скалистое, поэтому туристов здесь мало. Но и вода гораздо
+                    чище. Адриатическое море — самое популярное у пляжников, на
+                    нем находятся курорты Римини, Лидо-ди-Езоло и Риччин. Пляжи
+                    здесь песчаные, вход в воду очень плавный, поэтому побережье
+                    очень популярно у семей, приехавших на отдых с детьми.
+                    Побережье Ионического моря славится самыми чистыми пляжами —
+                    они почти все награждены Голубым флагом. Отдых здесь на
+                    удивление недорогой, народу на пляжах мало, а купаться можно
+                    с мая и почти до ноября.<a href="italy.html">Узнать больше.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+
+          <div class="cards">
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="egypt.html"><img src="source/images/Egyptcollage.jpg" class="img-fluid rounded-start"
+                      alt="egypt"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Египет</h5>
+                    <p class="card-text">Государство в Северной Африке и на Синайском полуострове Азиии.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="turkey.html"><img src="source/images/Turkeycollage.jpg" class="img-fluid rounded-start"
+                      alt="turkey"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Турция</h5>
+                    <p class="card-text">Страну омывают сразу три моря – Средиземное, Черное и Эгейское.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="italy.html"><img src="source/images/Itallycollage.jpg" class="img-fluid rounded-start"
+                      alt="italy"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Италия</h5>
+                    <p class="card-text"> Здесь, на Апеннинах, зародилась древняя Римская империя.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="oae.html"><img src="source/images/oarcollage.jpg" class="img-fluid rounded-start"
+                      alt="oae"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ОАЭ</h5>
+                    <p class="card-text">Место омывается лазурными водами Персидского и Оманского заливов.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- пока пустые, но для боковой панели, в среднем разрешении занимать все 12 долей,т.е. перенестись вниз  -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="mt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 footerinfo">
+          <p>
+            <a href="https://www.tez-tour.com/articles.html?categoryName=vacancies" target="_blank">Вакансии</a> <br>
+            <a href="https://www.tez-tour.com/articles.html?categoryName=aboutCompany" target="_blank">О компании</a>
+            <br>
+            Телефон <span>+7 982 992 06 43</span>
+          </p>
+          <!-- br нужен для переноса на новую строку -->
+        </div>
+
+        <div class="col-lg-4 col-md-12 footerinfo media-links">
+          <a href="https://www.instagram.com/the.pepsis?igsh=MTRuczMwYTZkc3pycQ==">
+            <img style="width: 25px; margin-inline: 1em" src="source/images/inst.png" alt="inst" /></a>
+
+          <a href="https://t.me/the_pepsis">
+            <img style="width: 35px; margin-inline: 1em" src="source/images/tgpng.jpg" alt="tg" /></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 footerinfo text-center mt-4">
+        <!-- класс text-center выравнивает текст -->
+        <p>All rights reserved 2024 <br />©️ The.Pepsis</p>
+        <!-- br нужен для переноса на новую строку -->
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- js лучше кидать в самом конце кода, т.к. сильная нагрузка на комп -->
+
+</body>
+
+</html>
