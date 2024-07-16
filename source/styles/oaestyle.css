@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+/* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+
+
+body {
+  margin-bottom: 0em;
+  background-color: #f8f9fa;
+  font-family: Nunito, serif;
+  /* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+  /* serif это шрифт если не получится подключить Nunito */
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+.carousel-control-prev-icon {
+  transform: rotate(90deg) scaleX(-1);
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+  position:none;
+  width: 100%;
+  bottom: auto;
+  top: auto;
+}
+
+
+
+
+
+
+
+h3 {
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #002a9c;
+}
+
+h1 {
+  text-align: center;
+  color: white
+}
+
+b {
+  color: #20930a;
+}
+
+.orange {
+  background: rgb(7, 68, 111);
+  background: linear-gradient(90deg, rgba(7, 68, 111, 1) 62%, rgba(248, 249, 250, 1) 100%);
+}
+
+
+
+.nav-link {
+  color: #20930a;
+}
+
+.nav-link:hover {
+  color: #07446f;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0e4403;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #07446f;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler:hover {
+  background-color: #20930a;
+  color: #f8f9fa;
+}
+
+
+
+.card {
+  border-style: solid;
+  border-color: rgb(7, 68, 111);
+  margin-top: 4em;
+  background-color:rgb(7, 68, 111);
+  color: white;
+}
+
+
+
+.phone-right-img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px 1px #20930a;
+}
+
+.EmirateShardsha,
+.EmirateAbuDabi,
+.EmirateDubai,
+.oaeMoney,
+.oae-food,
+.oae-hotel {
+  box-shadow: 0px 0px 7px 1px #20930a;
+  border-radius: 15px;
+  width: 18em;
+}
+
+
+
+
+
+.startfooter {
+  margin-top: 7em;
+  border-top: solid;
+  border-color: rgb(7, 68, 111);
+  border-width: 0, 2em;
+  padding-top: 3em;
+}
+
+.finishfooter{
+  background-color: rgb(2, 40, 66);
+}
+
+.footerinfo {
+  color: #f8f9fa00;
+  margin: auto auto;
+}
+
+.footerinfo span {
+  margin-left: 1em;
+  color: #f8f9fa;
+}
+
+.footerinfo a {
+  color: #f8f9fa;
+}
+
+.footerinfo p {
+  color: #f8f9fa;
+}
+
+
+
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+
+@media (min-width: 1000px) {
+
+  .EmirateShardsha,
+  .EmirateAbuDabi,
+  .EmirateDubai,
+  .oaeMoney,
+  .oae-food,
+  .oae-hotel {
+    width: 14em;
+  } 
+
+  .EmirateShardsha {
+    margin-top: 25em;
+  }
+  .EmirateAbuDabi {
+    margin-top: 32em;
+  }
+  .EmirateDubai {
+    margin-top: 26em;
+  }
+  .oaeMoney {
+    margin-top: 23em;
+    width: 10em;
+  }
+  .oae-food {
+    margin-top: 6em;
+  }
+  .oae-hotel {
+    margin-top: 13em;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .EmirateShardsha,
+  .EmirateAbuDabi,
+  .EmirateDubai,
+  .oaeMoney,
+  .oae-food,
+  .oae-hotel {
+    width: 18em;
+  } 
+
+  .EmirateShardsha {
+    margin-top: 20em;
+  }
+  .EmirateAbuDabi {
+    margin-top: 17em;
+  }
+  .EmirateDubai {
+    margin-top: 15em;
+  }
+  .oaeMoney {
+    margin-top: 11em;
+    width: 12em;
+  }
+  .oae-food {
+    margin-top: 3em;
+  }
+  .oae-hotel {
+    margin-top: 8em;
+  }
+}
+
+
+@media (min-width: 1700px) {
+
+  .EmirateShardsha {
+    margin-top: 18em;
+  }
+  .EmirateAbuDabi {
+    margin-top: 16em;
+  }
+  .EmirateDubai {
+    margin-top: 13em;
+  }
+  .oaeMoney {
+    margin-top: 4em;
+    width: 10em;
+  }
+  .oae-food {
+    margin-top: 2em;
+  }
+  .oae-hotel {
+    margin-top: 5em;
+  }
+}
+
+@media (min-width: 2100px) {
+
+  .EmirateShardsha,
+  .EmirateAbuDabi,
+  .EmirateDubai,
+  .oaeMoney,
+  .oae-food,
+  .oae-hotel {
+    width: 20em;
+  }
+  .EmirateShardsha {
+    margin-top: 14em;
+  }
+  .EmirateAbuDabi{
+    margin-top: 9em;
+  }
+  .EmirateDubai{
+    margin-top: 5em;
+  }
+  .oaeMoney{
+    margin-top: 1em;
+    width: 20em;
+  }
+  .oae-food{
+    margin-top: 1em;
+  }
+  .oae-hotel{
+    margin-top: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  .EmirateShardsha,
+  .EmirateAbuDabi,
+  .EmirateDubai,
+  .oaeMoney,
+  .oae-food,
+  .oae-hotel {
+    display: none;
+
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .phone-right-img {
+    display: none;
+
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .navleft {
+    display: none;
+
+  }
+}

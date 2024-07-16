@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+/* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+
+
+body {
+  margin-bottom: 0em;
+  background-color: #f8f9fa;
+  font-family: Nunito, serif;
+  /* подключение шрифта через ссылку, указать название шрифта вместо Nunito */
+  /* serif это шрифт если не получится подключить Nunito */
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+.carousel-control-prev-icon {
+  transform: rotate(90deg) scaleX(-1);
+}
+
+
+
+.carousel-control-next, .carousel-control-prev {
+  position:none;
+  width: 100%;
+  bottom: auto;
+  top: auto;
+}
+
+
+
+
+
+
+
+h3 {
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: #002a9c;
+}
+
+h1 {
+  text-align: center;
+  color: white
+}
+
+b {
+  color: #20930a;
+}
+
+.orange {
+  background: rgb(7, 68, 111);
+  background: linear-gradient(90deg, rgba(7, 68, 111, 1) 62%, rgba(248, 249, 250, 1) 100%);
+}
+
+
+
+.nav-link {
+  color: #20930a;
+}
+
+.nav-link:hover {
+  color: #07446f;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0e4403;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #07446f;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler:hover {
+  background-color: #20930a;
+  color: #f8f9fa;
+}
+
+
+
+.card {
+  border-style: solid;
+  border-color: rgb(7, 68, 111);
+  margin-top: 4em;
+  background-color:rgb(7, 68, 111);
+  color: white;
+}
+
+
+
+.phone-right-img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px 1px #20930a;
+}
+
+.ItalyBeach,
+.ItallyKlimat,
+.ItallyRimFontan,
+.ItallyNature,
+.ItalyShopping,
+.ItallyRestourant {
+  box-shadow: 0px 0px 7px 1px #20930a;
+  border-radius: 15px;
+  width: 18em;
+}
+
+
+
+
+
+.startfooter {
+  margin-top: 7em;
+  border-top: solid;
+  border-color: rgb(7, 68, 111);
+  border-width: 0, 2em;
+  padding-top: 3em;
+}
+
+.finishfooter{
+  background-color: rgb(2, 40, 66);
+}
+
+.footerinfo {
+  color: #f8f9fa00;
+  margin: auto auto;
+}
+
+.footerinfo span {
+  margin-left: 1em;
+  color: #f8f9fa;
+}
+
+.footerinfo a {
+  color: #f8f9fa;
+}
+
+.footerinfo p {
+  color: #f8f9fa;
+}
+
+
+
+
+.media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+
+@media (min-width: 1000px) {
+
+  .ItalyBeach,
+  .ItallyKlimat,
+  .ItallyRimFontan,
+  .ItallyNature,
+  .ItalyShopping,
+  .ItallyRestourant {
+    width: 14em;
+  }
+
+  .ItalyBeach {
+    margin-top: 5em;
+  }
+  .ItallyKlimat {
+    margin-top: 20em;
+  }
+  .ItallyRimFontan {
+    margin-top: 24em;
+  }
+  .ItallyNature {
+    margin-top: 20em;
+  }
+  .ItalyShopping {
+    margin-top: 29em;
+  }
+  .ItallyRestourant {
+    margin-top: 22em;
+  }
+}
+
+
+@media (min-width: 1400px) {
+
+  .ItalyBeach,
+  .ItallyKlimat,
+  .ItallyRimFontan,
+  .ItallyNature,
+  .ItalyShopping,
+  .ItallyRestourant {
+    width: 18em;
+  }
+
+  .ItalyBeach {
+    margin-top: 5em;
+  }
+  .ItallyKlimat {
+    margin-top: 9em;
+  }
+  .ItallyRimFontan {
+    margin-top: 15em;
+  }
+  .ItallyNature {
+    margin-top: 20em;
+  }
+  .ItalyShopping {
+    margin-top: 8em;
+  }
+  .ItallyRestourant {
+    margin-top: 13em;
+  }
+}
+
+
+@media (min-width: 1700px) {
+
+  .ItalyBeach {
+    margin-top: 4em;
+  }
+  .ItallyKlimat {
+    margin-top: 8em;
+  }
+  .ItallyRimFontan {
+    margin-top: 10em;
+  }
+  .ItallyNature {
+    margin-top: 8em;
+  }
+  .ItalyShopping {
+    margin-top: 10em;
+  }
+  .ItallyRestourant {
+    margin-top: 8em;
+  }
+}
+
+@media (min-width: 2100px) {
+
+  .ItalyBeach,
+  .ItallyKlimat,
+  .ItallyRimFontan,
+  .ItallyNature,
+  .ItalyShopping,
+  .ItallyRestourant {
+    width: 20em;
+  }
+  .ItalyBeach {
+    margin-top: 1em;
+  }
+  .ItallyKlimat {
+    margin-top: 4em;
+  }
+  .ItallyRimFontan {
+    margin-top: 5em;
+  }
+  .ItallyNature {
+    margin-top: 6em;
+  }
+  .ItalyShopping {
+    margin-top: 6em;
+  }
+  .ItallyRestourant {
+    margin-top: 4em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  .ItalyBeach,
+  .ItallyKlimat,
+  .ItallyRimFontan,
+  .ItallyNature,
+  .ItalyShopping,
+  .ItallyRestourant {
+    display: none;
+
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .phone-right-img {
+    display: none;
+
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .navleft {
+    display: none;
+
+  }
+}
